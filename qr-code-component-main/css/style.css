@@ -1,0 +1,44 @@
+body{
+  background-color: hsl(210deg 30% 78%);
+}
+.big-div{
+  background-color: white;
+  width: 270px;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 5%;
+  transition: .5s;
+  position: relative;
+}
+.big-div:hover{
+  box-shadow: 2px 2px 10px 10px black;
+}
+.smaller-div{
+  margin: auto;
+  padding: 20px;
+}
+.image-qr{
+  width: 100%;
+  border-radius: 5%;
+}
+.paragraph-div{
+  padding: 20px;
+  padding-top: 0;
+}
+.head{
+  font-size: 22px;
+}
+.content{
+  font-size: 15px;
+  color: #7b879d;
+}
+.challenger{
+  width: 200px;
+  margin: auto;
+}
+.icon-shape{
+  position: absolute;
+  top: -50px;
+  right: -300px;
+  width: 40px;
+}
